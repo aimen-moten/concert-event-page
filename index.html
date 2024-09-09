@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Concert Event Page</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+</head>
+<body>
+    <h1 class="heading">Aimen's Concert Favorites!</h1>
+    <table class="table">
+    <td class="table-row">
+        <img class="icon" src="src/ts.jpeg">
+        <div class="details">
+            <h1 class="artist">Taylor Swift</h1>
+            <h3 class="genre">Pop and Country</h3>
+            <p class="text">October 18, 2024 @ 7:00 PM ET</p>
+        </div>
+        <button id="ts" class="button">Tickets</button>
+    </td>
+    <td class="table-row">
+        <img class="icon" src="src/ab.webp">
+        <div class="details">
+            <h1 class="artist">Alec Benjamin</h1>
+            <h3 class="genre">Rock</h3>
+            <p class="text">November 1, 2024 @ 8:00 PM PT</p>
+        </div>
+        <button id="ab" class="button">Tickets</button>
+    </td>
+    <td class="table-row">
+        <img class="icon" src="src/pm.webp">
+        <div class="details">
+            <h1 class="artist">Post Malone</h1>
+            <h3 class="genre">Jazz</h3>
+            <p class="text">December 19, 2024 @ 9:00 PM MT</p>
+        </div>
+        <button id="pm" class="button">Tickets</button>
+    </td>
+    <td class="table-row">
+        <img class="icon" src="src/sc.jpg">
+        <div class="details">
+            <h1 class="artist">Sabrina Carpenter</h1>
+            <h3 class="genre">Country</h3>
+            <p class="text">January 1, 2025 @ 4:00 PM CT</p>
+        </div>
+        <button id="sc" class="button">Tickets</button>
+    </td>
+    </table>
+</body>
+<script>
+    document.getElementById("ts").addEventListener("click", function() {
+        alert("$900");
+    });
+    document.getElementById("ab").addEventListener("click", function() {
+        alert("$400");
+    });
+    document.getElementById("pm").addEventListener("click", function() {
+        alert("$370");
+    });
+    document.getElementById("sc").addEventListener("click", function() {
+        alert("$500");
+    });
+</script>
+</html>
